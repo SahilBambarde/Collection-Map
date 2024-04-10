@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Temp {
+public class Temp {
+    public String toString(){
+        return "temp";
+    }
+
+    public void finalize() {
+        System.out.println("Finalize Method Called");
+    }
 }

@@ -1,0 +1,28 @@
+Map Interface
+|
+SortedMap Interface
+|
+NavigableMap Interface
+|
+TreeMap class - AbstractMap class
+
+underlying data structure is red black tree
+
+self balancing binary search tree
+
+used for frequent insertion and deletion
+
+Insertion order is not preserved
+
+Duplicate keys are not allowerd.
+Values can be duplicated
+
+Default Sorting Order: Keys of the TreeMap should be homogeneous and comparable
+
+Customized Order: THe keys need not be homogeneous and comparable. Values can be homogeneous or heterogeneous in both
+above cases
+
+Null is not allowed
+
+Values may be null
+

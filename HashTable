@@ -1,0 +1,16 @@
+key value pairs
+
+uses hashing technique
+
+HashTable is thread-safe / Synchronized
+
+HashMap can be synchronized by using synchronized keyword
+
+Slow but data is consistent
+
+Null keys and null values are not allowed
+
+Legacy class
+
+Extends Dictionary(c)
+

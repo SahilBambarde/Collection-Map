@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class MySorting {
+public class MySorting implements java.util.Comparator {
+    @Override
+    public int compare(Object o1, Object o2) {
+        String s1 = o1.toString();
+        String s2 = o2.toString();
+        return s2.compareTo(s1);
+    }
 }

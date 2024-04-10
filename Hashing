@@ -1,0 +1,10 @@
+Hash Function
+
+when we hash function an object it supplies address of the object in the table
+
+hashCode() method
+generate unique code for an object
+
+equals()
+if two objects are equal then two object must have the same hashcode value
+

@@ -1,0 +1,60 @@
+Map Interface
+
+An interface which represents a mapping between a key and a value.
+
+key and values are object can be of any data type
+
+Keys cannot be Duplicate
+
+Values can be Duplicate
+
+Collection of entry-Object
+
+Each key and value is know as entry
+
+Insertion order is not preserved
+
+underlying data structure is HashTable
+
+Allows null as a key only once,
+values can be null more than once
+
+Implements serialiazable and cloneAble
+
+extends abstractMap class
+
+Best choise for search operation
+Uses Hashing to store data
+
+Hashing is applied on keys of the hashmap
+
+
+
+int size()
+Boolean isEmpty()
+Boolean containsKey()
+Boolean containsValue()
+Object get()
+Object put()
+Object remove()
+Map putAll()
+void clean()
+Set keySet()
+Collection values()
+Set entrySet()
+Boolean equals
+int hashCode()
+Object getOrDefault(Object key , Object defaultValue)
+void forEach(BiConsumer action)
+void replaceAll(BiFunction function)
+Object putIfAbsent(Object key,Object value)
+Boolean remove(Object key,Object value)
+Boolean replace(K key, V oldValue, V newValue)
+V replace(K key,V value)
+V computeIfAbsent(k Key,Function mappingFunction)
+compute(k key,BiFunction remappingFunction)
+V merge(k key, V value,BiFunction remappingFunction)
+
+
+
+
